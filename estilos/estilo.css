@@ -1,0 +1,236 @@
+
+/*cambios en la barra: color y  letra (navbar-brand)*/
+.container-fluid{
+    background-color:burlywood;
+}
+.navbar-brand{
+  font-family: Segoe Script;
+}
+/*cambios en el main*/
+.contenido{
+  display:flex;
+  justify-content: center;
+  
+}
+
+article{
+ 
+  margin: 2px;
+  text-align: center;
+  font-style: italic;
+  
+}
+article{
+  color: brown;
+  
+}
+/*cambios en el aside*/
+.detalles{
+  background-color: sienna;
+  color: white;
+  font-style: oblique;
+  text-align: center;
+  height: 400px;
+}
+/*cambios en el footer*/
+footer{
+   background-color:grey;
+   height: 80px;
+}
+.registro-email{
+  background-color:sienna;
+  border: 1px white solid;
+  border-radius: 15px;
+  width: 400px;
+  height: 50px;
+}
+.registro-enviar{
+  background-color: sienna;
+  border: 1px white solid;
+  border-radius: 10px;
+  color: white;
+  width: 150px;
+
+}
+.redes{
+  list-style: none;
+}
+
+.redes-sociales{
+  text-align: center;
+}
+.redes-texto{
+  text-align: center;
+  font-style: italic;
+}
+.pie-página{
+  text-align: center;
+}
+/*hasta aca todos los cambios en el index*/
+
+
+/*cambios en contactos*/
+
+.container {
+  display: flex; 
+}
+
+.column {
+  flex: 1; 
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  margin: 0 10px; 
+}
+.contactos{
+  text-align: center;
+  font-size: small;
+  margin: 20px;
+}
+
+.text-title{
+  margin: 25px;
+  font-style: italic;
+}
+.integrantes{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.rostros {
+  max-width: 100px;
+  max-height: 100px;
+}
+/*cambios en registro*/
+
+.container{
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+  font-size: small;
+  
+}
+.acceso{
+  margin: 10px;
+  padding: 10px;
+  border: 1px black solid;
+  width: 300px;
+  height: 400px;
+}
+.datos{
+  margin: 10px;
+  padding: 10px;
+  border: 1px black solid;
+  width: 300px;
+  height: 400px;
+}
+.btn-1{
+  display:inline-block;
+  background-color: orange;
+  border: 1px orange solid;
+  width: 150px;
+  height: 40px;
+  color: white;
+}
+.volver-1{
+ text-align: center;
+ 
+ 
+}
+.btn-3{
+  background-color: orange;
+  border: 1px orange solid;
+  color: white;
+}
+.redes-rgt{
+  margin: 20px;
+  
+}
+/*cambios en formulario*/
+.compras{
+  margin: 50px;
+  border: 1px black solid;
+  background-color:rgb(236, 240, 241);
+}
+.opciones{
+  margin: 15px;
+  font-style: oblique;
+}
+/*cambios en los botones del formulario*/
+.btn-4{
+  margin: 10px;
+  background-color: rgb(52, 153, 211);
+  border: 1px rgb(52, 153, 211) solid;
+  color: white;
+}
+/*boton limpiar formulario*/
+.limpiar{
+  margin: 10px;
+  display: inline-block;
+  background-color:rgb(52, 153, 211);
+  border: 1px rgb(52, 153, 211) solid;
+  color: white;
+}
+
+/*boton whatsaap*/ 
+.whatsapp-btn {
+  display: flex;
+  align-items: center;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  background-color: #20c057;
+}
+/*cambios en el logo*/
+.whatsapp-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+@media only screen and( min-width:320px){
+  .contenedor{
+    display: grid;
+    grid-template-areas:"header"
+                        "main"
+                        "aside"
+                        "footer";
+                        
+  }
+  header{
+    grid-area: header;
+  }
+  main{
+    grid-area: main;
+  }
+  aside{
+    grid-area: aside;
+  }
+  footer{
+    grid-area: footer;
+  
+}
+}

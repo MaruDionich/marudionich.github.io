@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<div class="contenedor">    
+    <div >
+    <form id="miFormulario">
+        <div class="compras">
+            <div class="opciones">
+                <h1>Ingrese sus intereses</h1><br>
+                <input type="checkbox" name="politica" id="">Pan integral <br>
+                <input type="checkbox" name="politica" id="">Hotcakes integral <br>
+                <input type="checkbox" name="politica" id="">Hotcakes de avena <br>
+                <input type="checkbox" name="politica" id="">Pre-pizzas <br>
+                <input type="checkbox" name="politica" id="">Pre-pizzas integrales <br><br>
+                <span>Selecione cantidad</span>
+                <select name="" id="">
+                <option value="" disabled selected>Cantidad</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">otro</option>
+                </select><br><br>
+                <h5>Dejar un comentario</h5>
+                <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+            </div>
+            
+            <div>   
+                <button type="button" class="btn-4"  onclick="enviar()">Enviar</button>
+            </div>    
+            <div class="limpiar">    
+                <button type="button" class="btn-4" onclick="limpiarFormulario()">Limpiar Formulario</button>
+            </div>
+        
+        </div>
+    </form>
+    </div>
+</div>
+    
+ 
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
