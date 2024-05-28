@@ -91,29 +91,7 @@ footer{
   margin: 25px;
   font-style: italic;
 }
-.integrantes{
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
 
-th, td {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-th {
-  background-color: #f2f2f2;
-}
-
-.rostros {
-  max-width: 100px;
-  max-height: 100px;
-}
 /*cambios en registro*/
 
 .container{
