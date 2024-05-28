@@ -21,16 +21,7 @@ function limpiarFormulario() {
     // Resetear el formulario
     formulario.reset();
 } 
-/*document.addEventListener('DOMContentLoaded', function() {
-    // Seleccionar el botón por su ID
-    var boton = document.getElementById('buttonenvio');
 
-    // Añadir un Event Listener al botón para el evento 'click'
-    boton.addEventListener('click', function() {
-        // Mostrar la alerta cuando el botón es presionado
-        alert('Si tu domicilio es dentro de San Nicolás su envío es gratis!!! Si no tendrá un costo de $800.');
-    })
-})*/
 //me lleva a whatsaap
 document.getElementById('whatsappButton').addEventListener('click', function() {
     const phoneNumber = '3364260626'; 
